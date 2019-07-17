@@ -1,4 +1,5 @@
 require 'pry'
+stuff = ["Tim", "Tom", "Jim"]
 
 def hello(array)
   i = 0
@@ -10,4 +11,3 @@ end
 
 
 hello(stuff) { |name| puts "Hi, #{name}" }
-stuff = ["Tim", "Tom", "Jim"]
